@@ -6,5 +6,7 @@
         <page name='Builder'/>
         <page name='Singletone'/>
         <page name='Delegation'/>
+        <page name='Observer'/>
+        <page name='Prototype'/>
     </pages>
 </playground>
