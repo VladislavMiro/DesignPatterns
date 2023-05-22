@@ -8,5 +8,6 @@
         <page name='Delegation'/>
         <page name='Observer'/>
         <page name='Prototype'/>
+        <page name='Facade'/>
     </pages>
 </playground>

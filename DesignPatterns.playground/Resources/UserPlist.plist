@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>id</key>
+        <integer>1</integer>
+        <key>firstName</key>
+        <string>Terry</string>
+        <key>lastName</key>
+        <string>Medhurst</string>
+        <key>maidenName</key>
+        <string>Smitham</string>
+        <key>age</key>
+        <integer>50</integer>
+        <key>gender</key>
+        <string>male</string>
+        <key>email</key>
+        <string>atuny0@sohu.com</string>
+        <key>phone</key>
+        <string>+63-791-675-8914</string>
+        <key>username</key>
+        <string>atuny0</string>
+    </dict>
+</plist>
+

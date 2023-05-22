@@ -10,7 +10,7 @@ import Foundation
 
 //MARK: Реализаия паттерна Наблюдатель
 //Протокол который описывает объект-издатель, на изменения которого будут подписываться другие объекты.
-protocol Observed {
+protocol Observable {
     func addObserver(for object: Observer)
     func removeObserver(for object: Observer)
 }
@@ -20,7 +20,7 @@ protocol Observer: class {
 }
 
 //MARK: Реализация протоколов
-final class ObservedClass: Observed {
+final class ObservableClass: Observable {
 
     var data: String = "" {
         didSet {
@@ -61,7 +61,7 @@ class ObserverClass: Observer {
 }
 
 //MARK: использование паттереа Наблюдатель
-var observedObject = ObservedClass(data: "example data")
+var observedObject = ObservableClass(data: "example data")
 
 var subscriber1 = ObserverClass()
 var subscriber2 = ObserverClass()
